@@ -8,6 +8,6 @@
 using namespace std;
 
 int main() {
-    cout << "Welcome to the game!\n";
+    cout << "test 2!\n";
     return 0;
 }
