@@ -4,5 +4,5 @@
 
 #include "world.h"
 
-world::World() {}
-world::~World() {}
+world::world() {}
+world::~world() {}

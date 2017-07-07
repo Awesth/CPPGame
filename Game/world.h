@@ -14,8 +14,10 @@ private:
     int m_place [10] = {1,2,3,4,5,6,7,8,9,10};
 
 public:
-    world::World();
-    world::~World();
+
+    // Defaults
+    world();
+    ~world();
     int getxCord() { return m_xCord; }
     int getyCord() { return m_yCord; }
     int getPlace(int x) { return m_place[x]; }
